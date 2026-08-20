@@ -644,7 +644,10 @@ section { position: relative; z-index: 1; scroll-margin-top: 88px; }
   color: var(--text);
 }
 
-.stripe-slot { display: none; }
+.prow.parked {
+  opacity: 0.78;
+}
+.prow.parked h3 { color: var(--text-2); }
 
 /* ——— Mobile ——— */
 @media (max-width: 880px) {
