@@ -385,6 +385,72 @@ section { position: relative; z-index: 1; scroll-margin-top: 88px; }
   margin-bottom: 0.35rem;
 }
 
+.stage-legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 40rem;
+  border-top: 1px solid var(--line);
+}
+.stage-legend li {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--text-2);
+  font-size: 0.98rem;
+}
+.stage-legend span {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--amber);
+  letter-spacing: 0.04em;
+}
+.stage-legend strong {
+  display: block;
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+}
+
+.payable {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: clamp(1.45rem, 3.4vw, 2.05rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.15;
+  margin: 0 0 1.15rem;
+}
+.payable .amt { color: var(--amber); }
+
+.tcpa-note {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.ask-close { margin-top: 1.15rem; }
+.ask-close-after {
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+.ask-notes {
+  list-style: none;
+  margin: 0.95rem 0 0;
+  padding: 0;
+}
+.ask-notes li {
+  color: var(--text-2);
+  margin: 0.5rem 0;
+  padding-left: 0.85rem;
+  border-left: 2px solid var(--amber-d);
+}
+
 /* Featured stack */
 .stack-panel {
   background: var(--bg-3);
@@ -648,6 +714,9 @@ section { position: relative; z-index: 1; scroll-margin-top: 88px; }
   opacity: 0.78;
 }
 .prow.parked h3 { color: var(--text-2); }
+.prow.request {
+  border-color: var(--line-2);
+}
 
 /* ——— Mobile ——— */
 @media (max-width: 880px) {
