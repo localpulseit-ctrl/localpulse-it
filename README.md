@@ -5,9 +5,10 @@ Static marketing site for LocalPulse IT. Open index.html in a browser.
 Open index.html, or: python3 -m http.server 8080 then http://localhost:8080
 Pages: index.html, pricing.html, privacy.html, terms.html, refund.html
 
-## Not done
-No Stripe Payment Links. Contact mailto:localpulseit@gmail.com.
-Ask for Growth + Engine:
+## Checkout
+Payable Example A (monthly): https://buy.stripe.com/4gMfZha0S2jZdMa23s7ok00
+Annual if asked (not a homepage buy button): https://buy.stripe.com/fZuaEX5KCaQvfUi7nM7ok01
+Growth+ stays request-only:
 mailto:localpulseit@gmail.com?subject=Growth%20%2B%20Engine%20%E2%80%94%20DFW&body=Trade%3A%0ACity%20%2F%20zip%3A%0AOwner%20name%3A%0A
 
 ## Pricing rule
